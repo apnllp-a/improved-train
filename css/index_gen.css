@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+}
+
+
+/* Style the content */
+
+.content {
+    margin-left: 9.5%;
+}
+
+
+/* Style the top navigation bar */
+
+a.as {
+    float: left;
+}
+
+.list {
+    margin-left: 40%;
+}
+
+
+/*ส่วนปฏิทิน*/
+
+.table {
+    border: 1px solid black;
+}
+
+h1 {
+    color: chocolate;
+}
+
+th.hv {
+    width: 120px;
+    margin-top: auto;
+}
+
+.hv:hover {
+    background-color: rgb(184, 253, 255);
+    border-radius: 7%;
+}
+
+h2.f {
+    margin-left: -3%;
+    border-bottom: 1px solid #cfcece;
+    width: 93.5%;
+    padding-bottom: 20px;
+}
+
+h2.c {
+    margin-left: 10%;
+}
+
+.container {
+    text-align: center;
+}
+
+.att {
+    background-color: rgb(184, 253, 255);
+}
+
+table {
+    width: 75%;
+    line-height: 75px;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+a.hd {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: black;
+    border-radius: 2px;
+}

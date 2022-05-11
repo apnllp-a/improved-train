@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: #34495e;
+}
+
+.container {
+    background-color: #2c3e50;
+    width: 35%;
+    height: 50rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border: 1px solid #34495e;
+    border-radius: 1rem;
+    color: #3498db;
+}
+
+label {
+    width: 15rem;
+    font-size: 1.25rem;
+}
+
+input {
+    width: 15rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    color: #2c3e50;
+}
+
+input:hover {
+    width: 15rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #3498db;
+    transition: 0.5s;
+}
+
+h1 {
+    color: #3498db;
+}
+
+button {
+    color: #3498db;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    background-color: #34495e;
+    border: 2px solid #34495e;
+}
+
+button:hover {
+    color: #3498db;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    background-color: #18212b;
+    border: 2px solid #3498db;
+    transition: 1.2s;
+    cursor: pointer;
+}
+
+.button {
+    color: #3498db;
+    width: 8rem;
+    height: 3rem;
+    padding: 0.64rem;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    background-color: #34495e;
+    border: 2px solid #34495e;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #3498db;
+    width: 8rem;
+    height: 3rem;
+    padding: 0.64rem;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    background-color: #18212b;
+    border: 2px solid #3498db;
+    text-decoration: none;
+    transition: 1.2s;
+}
+
+.name {
+    border: 1px solid #3498db;
+    border-radius: 1.5rem;
+    width: 75%;
+}
+
+.userpass {
+    border: 1px solid #3498db;
+    border-radius: 1.5rem;
+    width: 75%;
+}
+
+.datenum {
+    border: 1px solid #3498db;
+    border-radius: 1.5rem;
+    width: 75%;
+}

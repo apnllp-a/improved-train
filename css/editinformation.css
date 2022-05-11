@@ -1,0 +1,119 @@
+.forum {
+    margin-left: 21rem;
+    margin-top: -20rem;
+}
+
+.ic1 {
+    color: forestgreen;
+    text-decoration: none;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.ic2 {
+    color: rgb(139, 41, 34);
+    text-decoration: none;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.staff {
+    z-index: 9999 !important;
+}
+
+form {
+    margin-top: 3rem;
+    float: right;
+    margin-right: 3rem;
+}
+
+th {
+    width: 16%;
+    padding: 1.5rem;
+}
+
+td {
+    width: 16%;
+    padding: 1.5rem;
+}
+
+h4 {
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+    font-size: 1.5rem;
+}
+
+thead {
+    background-color: rgb(127, 208, 255);
+    border-radius: 10px;
+}
+
+.table {
+    width: 75%;
+    height: 100%;
+    border-bottom: 5px solid rgb(127, 208, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.refresh {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(127, 208, 255);
+    border-bottom: 5px solid slateblue;
+    cursor: pointer;
+}
+
+.refresh:hover {
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: slateblue;
+    border-bottom: 5px solid rgb(127, 208, 255);
+    cursor: pointer;
+    transition: 0.75s;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(127, 208, 255, 0.644);
+}
+
+th,
+td {
+    text-align: left;
+}
+
+button.btnn {
+    background-color: rgba(127, 208, 255, 0.644);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    height: 3rem;
+    width: 8rem;
+    font-size: 16px;
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.btnn:hover {
+    background-color: rgba(127, 208, 255, 0.829);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    height: 3rem;
+    width: 8rem;
+    font-size: 16px;
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input.popup {
+    height: 3rem;
+    width: 8rem;
+    background-color: aquamarine;
+}
